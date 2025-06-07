@@ -1,0 +1,9 @@
+.Footer {
+    min-height: 80px;
+    background-color: rgba(0, 0, 0, 0.887);
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}

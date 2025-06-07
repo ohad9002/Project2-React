@@ -1,0 +1,28 @@
+:root {
+    /* --myLightTextColor: rgb(222, 228, 232);
+    --mySemiLightColor: rgb(151, 170, 187); */
+
+    --myLightTextColor: rgb(208, 199, 149);
+    --mySemiLightColor: rgb(218, 145, 44);
+}
+
+
+.NavBar {
+    background-color: rgba(0, 0, 0, 0.741);
+    color: rgb(196, 210, 210);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+}
+
+.NavBar .myLinks a {
+    color: var(--myLightTextColor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.NavBar .myLinks a:visited {
+    color: var(--mySemiLightColor);
+    text-decoration: none;
+}
